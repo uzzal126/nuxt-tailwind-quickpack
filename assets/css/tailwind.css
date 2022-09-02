@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-body;
+    }
+    img {
+        @apply inline-block;
+    }
+    p {
+        @apply mb-4 last:mb-0 leading-6;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-medium text-heading leading-[1.4];
+    }
+    h2 {
+        @apply text-4xl;
+    }
+    h3 {
+        @apply text-2xl;
+    }
+    h4 {
+        @apply text-xl;
+    }
+    h5 {
+        @apply text-lg;
+    }
+    h6 {
+        @apply text-base;
+    }
+    li {
+        @apply last:mr-0;
+    }
+    a {
+        @apply transition;
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        @apply hidden;
+    }
+    .swiper-button-disabled {
+        @apply !pointer-events-auto !opacity-100;
+    }
+    .swiper-pagination-center {
+        @apply left-1/2 -bottom-10 !-translate-x-1/2;
+    }
+    .swiper-pagination .swiper-pagination-bullet {
+        @apply w-2.5 h-2.5 rounded-full bg-heading mr-5 last:mr-0;
+    }
+}
+
+@layer components {
+    .py-section {
+        @apply py-[70px];
+    }
+    .pt-section {
+        @apply pt-[70px];
+    }
+    .pb-section {
+        @apply pb-[70px];
+    }
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "uri": "/",
+        "label": "Home",
+        "submenu": [
+            {
+                "uri": "/about",
+                "label": "About"
+            },
+            {
+                "uri": "/contact",
+                "label": "Contact"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "uri": "/about",
+        "label": "About"
+    },
+    {
+        "id": 3,
+        "uri": "/contact",
+        "label": "Contact"
+    }
+]
