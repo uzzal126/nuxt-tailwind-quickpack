@@ -1,5 +1,3 @@
-# edumall-vue
-
 ## Build Setup
 
 ```bash
